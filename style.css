@@ -63,3 +63,35 @@ main img{
     color: white;
     padding: 3px;
 }
+
+footer{
+    background-color: #222;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    bottom: 0px;
+}
+
+footer nav{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.microphone_video{
+    font-size: 25px;
+}
+
+.settings{
+    font-size: 25px;
+}
+
+.fa-angle-up:before {
+    content: "\f106";
+    font-size: 10px;
+    align-self: center;
+}
